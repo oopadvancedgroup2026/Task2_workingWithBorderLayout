@@ -34,8 +34,7 @@ public class workingWithBorderLayout {
         JPanel Borderpanel = new JPanel();
         Borderpanel.setLayout(new GridLayout(3,1));
 
-
-        JButton Button1 = new JButton("Option-1");
+        JButton Button1 = new JButton("Menu Option 1");
         JButton Button2 = new JButton("Option-2");
         JButton Button3 = new JButton("Option-3");
 
