@@ -13,7 +13,7 @@ public class workingWithBorderLayout {
         BorderFrame.setLayout(new BorderLayout());
 
         BorderFrame.add(this.BorderLabel(), BorderLayout.NORTH);
-        BorderFrame.add(this.BorderPanel(),BorderLayout.WEST);
+        BorderFrame.add(this.BorderPanel(),BorderLayout.EAST);
         BorderFrame.add(this.BorderScroller(), BorderLayout.CENTER);
         BorderFrame.add(this.SubmitButton(), BorderLayout.SOUTH);
 
