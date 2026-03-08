@@ -9,7 +9,7 @@ public class workingWithBorderLayout {
 
     public JFrame BorderFrame(){
         JFrame BorderFrame = new JFrame("Borderlayout Demo");
-        BorderFrame.setSize(600, 400);
+        BorderFrame.setSize(700, 500);
         BorderFrame.setLayout(new BorderLayout());
 
         BorderFrame.add(this.BorderLabel(), BorderLayout.NORTH);
