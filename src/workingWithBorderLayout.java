@@ -9,7 +9,7 @@ public class workingWithBorderLayout {
 
     public JFrame BorderFrame(){
         JFrame BorderFrame = new JFrame("Borderlayout Demo");
-        BorderFrame.setSize(600, 400);
+        BorderFrame.setSize(700, 500);
         BorderFrame.setLayout(new BorderLayout());
 
         BorderFrame.add(this.BorderLabel(), BorderLayout.NORTH);
@@ -49,7 +49,7 @@ public class workingWithBorderLayout {
 
     public JScrollPane BorderScroller(){
 
-        JTextArea BorderTextArea = new JTextArea("Type here.....");
+        JTextArea BorderTextArea = new JTextArea("Enter your message here...");
         BorderTextArea.setLineWrap(true);
         BorderTextArea.setWrapStyleWord(true);
 
@@ -61,7 +61,7 @@ public class workingWithBorderLayout {
 
 
     public JButton SubmitButton(){
-        JButton submitButton = new JButton("Submit");
+        JButton submitButton = new JButton("Submit Form");
 
         return submitButton;
     }
