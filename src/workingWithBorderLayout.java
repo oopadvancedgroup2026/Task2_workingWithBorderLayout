@@ -25,7 +25,7 @@ public class workingWithBorderLayout {
 
     public  JLabel BorderLabel(){
         JLabel BorderLabel = new JLabel("Application Tittle");
-        BorderLabel.setHorizontalAlignment(JLabel.CENTER);
+        BorderLabel.setHorizontalAlignment(JLabel. NORTH);
 
         return BorderLabel;
     }
