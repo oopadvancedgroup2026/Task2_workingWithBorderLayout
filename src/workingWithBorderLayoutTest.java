@@ -1,9 +1,15 @@
+import javax.swing.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class workingWithBorderLayoutTest {
+    workingWithBorderLayout app;
+    JFrame appFrame;
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
+        app = new workingWithBorderLayout();
+        appFrame = app.BorderFrame();
     }
 
     @org.junit.jupiter.api.Test
