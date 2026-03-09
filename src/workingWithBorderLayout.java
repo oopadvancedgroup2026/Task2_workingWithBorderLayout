@@ -38,10 +38,13 @@ public class workingWithBorderLayout {
         JButton Button1 = new JButton("Option-1");
         JButton Button2 = new JButton("Option-2");
         JButton Button3 = new JButton("Option-3");
+        JButton Button4 = new JButton("Option-4 B5");
+
 
         Borderpanel.add(Button1);
         Borderpanel.add(Button2);
         Borderpanel.add(Button3);
+        Borderpanel.add(Button4);
 
         return Borderpanel;
     }
