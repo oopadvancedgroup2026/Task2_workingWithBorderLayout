@@ -61,7 +61,9 @@ public class workingWithBorderLayout {
 
 
     public JButton SubmitButton(){
-        JButton submitButton = new JButton("Submit");
+       JButton submitButton = new JButton("Send B4");
+       submitButton.setForeground(Color.WHITE);
+
 
         return submitButton;
     }
