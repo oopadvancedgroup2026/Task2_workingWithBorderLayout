@@ -1,5 +1,6 @@
 import javax.swing.*;
 
+import java.awt.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class workingWithBorderLayoutTest {
@@ -14,6 +15,9 @@ class workingWithBorderLayoutTest {
 
     @org.junit.jupiter.api.Test
     void borderFrame() {
+        assertNotNull(appFrame);
+        assertEquals("Borderlayout Demo", appFrame.getTitle());
+        assertTrue(appFrame.getLayout() instanceof BorderLayout);
     }
 
     @org.junit.jupiter.api.Test
