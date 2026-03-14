@@ -48,6 +48,19 @@ class workingWithBorderLayoutTest {
 
     @org.junit.jupiter.api.Test
     void borderScroller() {
+        JScrollPane pane = (JScrollPane) app.BorderScroller();
+        JTextArea area = (JTextArea) pane.getViewport().getView();
+
+        assertNotNull(pane);
+        assertEquals(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS , pane.getVerticalScrollBarPolicy());
+        assertEquals(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER, pane.getHorizontalScrollBarPolicy());
+        assertEquals(3, pane.getComponentCount());
+
+        assertNotNull(area);
+        assertEquals("Type here.....", area.getText());
+        assertEquals(true, area.getLineWrap());
+        assertEquals(true, area.getWrapStyleWord());
+
     }
 
     @org.junit.jupiter.api.Test
